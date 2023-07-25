@@ -14,16 +14,19 @@ const Circles = () => {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.from(circle.current, {
+        autoAlpha: 0,
         duration: 2.4,
         scale: 0,
         ease: Expo.easeInOut,
       })
       gsap.from(circle_1.current, {
+        autoAlpha: 0,
         duration: 2.4,
         scale: 0,
         ease: Expo.easeInOut,
       })
       gsap.from(circle_2.current, {
+        autoAlpha: 0,
         duration: 2.4,
         scale: 0,
         ease: Expo.easeInOut,
