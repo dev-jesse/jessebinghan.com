@@ -1,0 +1,12 @@
+.blocks {
+  display: flex;
+  font-size: 140px;
+  color: #8d785b;
+  z-index: 2;
+}
+
+@media (max-width: 922px) {
+  .blocks {
+    display: none;
+  }
+}

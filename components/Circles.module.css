@@ -1,0 +1,34 @@
+.circle_shape {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+
+.circle_shape_2 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 240px;
+  background: #a83e0c;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.circle_shape_3 {
+  position: absolute;
+  top: 64%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 240px;
+  background: #a83e0c;
+  border-radius: 100%;
+  z-index: 2;
+}
